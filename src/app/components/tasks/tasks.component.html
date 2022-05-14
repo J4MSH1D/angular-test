@@ -1,0 +1,4 @@
+<div *ngIf="show" class="mt-10 py-2 text-center bg-gray-100">
+    <div class="text-lg font-bold">Tasks</div>
+    <p *ngFor="let task of tasks" class="py-2 bg-slate-300 my-2">{{task.text}}</p>
+</div>
